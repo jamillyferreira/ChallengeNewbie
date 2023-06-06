@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main {
+    border-radius: 4rem;
+    background: floralwhite;
+    display: flex;
+    width: 640px;
+
+}
+
+
+main section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    text-align: left;
+    
+    
+}
+main h2 {
+    color: aliceblue;
+    font-size: 25px;
+    padding: 1.5rem 0;
+    
+    
+    
+}
+main p {
+    color: aliceblue;
+    margin-bottom: 3rem;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+
+main img {
+    width: 30%;
+}
+main .first-card {
+    background: hsl(31, 77%, 52%);
+   
+}
+
+main .two-card {
+    background: hsl(184, 100%, 22%);
+    
+}
+
+main .last-card {
+    background: hsl(179, 100%, 13%);
+}
+
+button {
+   padding: 10px;
+}
+
+main .first-card button {
+    border-radius: 2rem;
+    border: none;
+    color: hsl(31, 77%, 52%);
+}
+
+main .two-card button {
+    border-radius: 2rem;
+    border: none;
+    color: hsl(184, 100%, 22%);
+}
+
+main .last-card button {
+    border-radius: 2rem;
+    border: none;
+    color: hsl(179, 100%, 13%);
+}
