@@ -29,41 +29,100 @@ main {
     justify-content: center;
     margin: auto;
     background-color: var(--white);
-    max-width: 780px;
-    border-radius: 10px;
-    box-shadow: 1px 3px 1px #00000063;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 0px 1px #00000069;
 }
 
-main .container-principal {
+main .container-stay {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 1.5rem;
-
+    padding-left: 1.5rem;
 }
 
-main .container-principal h1 {
+main .container-stay h1 {
     color: var(--dark-grey);
     margin-bottom: 1rem;
     font-weight: 700;
     
 }
 
-main .container-principal p {
+main .container-stay p {
     font-size: 16px;
     color: var(--dark-grey);
     margin-bottom: 1rem;
 }
+
 main .product-list {
     color: var(--dark-grey);
     margin-bottom: 1rem;
 }
 
 main .product-list ul {
-    list-style-image: url(./assets/images/icon-success.svg)
+    list-style-image: url(/newsletter-sign-up/assets/images/icon-success.svg);
+    margin-left: 1rem;
+    
+}
+
+main .product-list li {
+    margin-bottom: 10px;
+}
+
+main .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 img {
     max-width: 100%;
+    padding: 15px 15px 15px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    color: var(--dark-grey);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--grey);
+    cursor: pointer;
+}
+
+input:hover {
+    border: 1px solid var(--Charcoal-Grey);
+}
+
+input[type="submit"]{
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(to left, hsl(4, 100%, 67%), hsla(355, 65%, 65%, 0.911));
+    
+
+}
+
+main.card {
+    display: none;
 }
