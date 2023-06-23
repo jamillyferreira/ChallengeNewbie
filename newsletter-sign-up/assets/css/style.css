@@ -29,7 +29,7 @@ main {
     justify-content: center;
     margin: auto;
     background-color: var(--white);
-    max-width: 750px;
+    max-width: 780px;
     border-radius: 10px;
     box-shadow: 1px 3px 1px #00000063;
 }
@@ -58,6 +58,10 @@ main .container-principal p {
 main .product-list {
     color: var(--dark-grey);
     margin-bottom: 1rem;
+}
+
+main .product-list ul {
+    list-style-image: url(./assets/images/icon-success.svg)
 }
 
 img {
